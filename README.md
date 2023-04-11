@@ -1,6 +1,6 @@
 # ts-superhero-enthusiast
 
-### This project create a basic application for a superhero enthusiast, that can perform following functions:
+##### This project create a basic application for a superhero enthusiast, that can perform following functions:
 
 #### 1. Allow a user to search for their favourite superhero.
 
