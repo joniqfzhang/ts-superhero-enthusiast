@@ -14,5 +14,11 @@
  
 #### The app would allow a user to search superheroes by name, see his/her details, edit them and view all their saved super heroes.
 ##### You can use https://superheroapi.com/ for fetching super hero details. (clicking this link might not work but type superheroapi.com in browser)
+---
+#### Assumptions: 
+- there is no user account managment
+- it assumes that users login to their own account.
 
+
+---
 ##### The Thch stack is ReactJS, GraphQL, NodeJS and mongodb
