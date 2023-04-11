@@ -2,7 +2,7 @@
 
 This project create a basic application for a superhero enthusiast, that can perform following functions:
 
-### 1. Allow a user to search for their favourite superhero.
+#### 1. Allow a user to search for their favourite superhero.
 
 ### 2. Select the superhero and see his/her image and power stats.
 
