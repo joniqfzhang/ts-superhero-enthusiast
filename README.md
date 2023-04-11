@@ -21,4 +21,4 @@
 
 
 ---
-##### The Thch stack is ReactJS, GraphQL, NodeJS and mongodb
+##### The Thch stack are ReactJS, Apollo(GraphQL), NodeJS and mongodb (MARN)
