@@ -3,7 +3,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import SuperHeros from './SuperHeros';
 // import DisplayLocations from './DisplayLocations';
 
-const urlServer = process.env.URL_SERVER;
+const urlServer = process.env.REACT_APP_URL_SERVER;
 
 function App() {
   const apolloClient = new ApolloClient({
