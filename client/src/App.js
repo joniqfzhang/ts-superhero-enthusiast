@@ -3,10 +3,12 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import SuperHeros from './SuperHeros';
 // import DisplayLocations from './DisplayLocations';
 
+const urlServer = process.env.URL_SERVER;
+
 function App() {
   const apolloClient = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: "http://localhost:4000/",
+    uri: urlServer,
     // uri: "http://localhost:4000/graphql", // this is also works
     // uri: 'https://flyby-router-demo.herokuapp.com/',
   });
