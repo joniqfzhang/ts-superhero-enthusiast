@@ -9,13 +9,23 @@
 //     ]
 //  }
 
+// {
+//     "version": "1.0.0",
+//     "name": "ts-superhero-enthusiast-server",
+//     "builds": [
+//        { "src": "index.ts", "use": "@vercel/node" }
+//     ],
+//     "routes": [
+//        { "src": "/(.*)", "dest": "/esm.index.js" }
+//     ]
+//  }
 {
-    "version": "1.0.0",
+    "version": "2",
     "name": "ts-superhero-enthusiast-server",
     "builds": [
        { "src": "index.ts", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/esm.index.js" }
+       { "src": "/(.*)", "dest": "/dist.esm.index.js" }
     ]
  }
