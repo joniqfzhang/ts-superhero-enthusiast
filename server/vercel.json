@@ -1,0 +1,21 @@
+// {
+//     "version": 2,
+//     "name": "music-album",
+//     "builds": [
+//        { "src": "app.js", "use": "@vercel/node" }
+//     ],
+//     "routes": [
+//        { "src": "/(.*)", "dest": "/app.js" }
+//     ]
+//  }
+
+{
+    "version": "1.0.0",
+    "name": "ts-superhero-enthusiast-server",
+    "builds": [
+       { "src": "index.ts", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/esm.index.js" }
+    ]
+ }
