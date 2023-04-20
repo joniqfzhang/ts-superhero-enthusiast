@@ -26,6 +26,6 @@
        { "src": "index.ts", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/dist/esm/index.js" }
+       { "src": "/(.*)", "dest": "./dist/esm/index.js" }
     ]
  }
