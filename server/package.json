@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run tsc && node ./dist/esm/index.js",
     "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon --exec \"node --loader ts-node/esm\" ./src/index.ts"
   },
   "keywords": [],
   "author": "",
